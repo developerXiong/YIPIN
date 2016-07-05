@@ -1,0 +1,46 @@
+//
+//  HEADFILE.pch
+//  YIPIN
+//
+//  Created by jeader on 16/3/21.
+//  Copyright © 2016年 jeader. All rights reserved.
+//
+
+#ifndef HEADFILE_pch
+#define HEADFILE_pch
+
+#import "UIViewController+NavigationBar.h"
+#import "UIView+UIView_CYChangeFrame.h"
+#import "CYCreateView.h"
+
+#define CYSCREENSIZE [UIScreen mainScreen].bounds.size
+
+/**
+ *  金色
+ */
+#define BULINBULIN [UIColor colorWithRed:209/255.0 green:176/255.0 blue:110/255.0 alpha:1.0]
+
+/**
+ *  绿色-首页
+ */
+#define GREENCOLOR [UIColor colorWithRed:166/255.0 green:221/255.0 blue:50/255.0 alpha:1.0]
+
+/**
+ *  蓝色-首页
+ */
+#define BLUECOLOR [UIColor colorWithRed:111/255.0 green:216/255.0 blue:224/255.0 alpha:1.0]
+
+/**
+ *  导航栏-黑色
+ */
+#define BLACKCOLOR [UIColor colorWithRed:27/255.0 green:29/255.0 blue:35/255.0 alpha:1.0]
+
+/**
+ *  根据RGB获取颜色
+ */
+#define COLORWITHRGB(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* HEADFILE_pch */
